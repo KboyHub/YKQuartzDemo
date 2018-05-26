@@ -13,6 +13,10 @@
 		B22B8B8420B919B400C126D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22B8B8320B919B400C126D8 /* Assets.xcassets */; };
 		B22B8B8720B919B400C126D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22B8B8520B919B400C126D8 /* LaunchScreen.storyboard */; };
 		B22B8B8A20B919B400C126D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B22B8B8920B919B400C126D8 /* main.m */; };
+		B22B8B9220B919D300C126D8 /* YKCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B22B8B9120B919D300C126D8 /* YKCustomView.m */; };
+		B22B8B9520B9374300C126D8 /* YKBezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = B22B8B9420B9374300C126D8 /* YKBezierView.m */; };
+		B22B8B9720B93EFE00C126D8 /* imageIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B22B8B9620B93EFE00C126D8 /* imageIcon.png */; };
+		B22B8B9A20B93F2000C126D8 /* YKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B22B8B9920B93F2000C126D8 /* YKImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		B22B8B8620B919B400C126D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B22B8B8820B919B400C126D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B22B8B8920B919B400C126D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B22B8B9020B919D300C126D8 /* YKCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKCustomView.h; sourceTree = "<group>"; };
+		B22B8B9120B919D300C126D8 /* YKCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKCustomView.m; sourceTree = "<group>"; };
+		B22B8B9320B9374300C126D8 /* YKBezierView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKBezierView.h; sourceTree = "<group>"; };
+		B22B8B9420B9374300C126D8 /* YKBezierView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKBezierView.m; sourceTree = "<group>"; };
+		B22B8B9620B93EFE00C126D8 /* imageIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageIcon.png; sourceTree = "<group>"; };
+		B22B8B9820B93F2000C126D8 /* YKImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKImageView.h; sourceTree = "<group>"; };
+		B22B8B9920B93F2000C126D8 /* YKImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +69,20 @@
 		B22B8B7920B919B300C126D8 /* YKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B22B8B7A20B919B300C126D8 /* AppDelegate.h */,
-				B22B8B7B20B919B300C126D8 /* AppDelegate.m */,
+				B22B8B9620B93EFE00C126D8 /* imageIcon.png */,
+				B22B8B9020B919D300C126D8 /* YKCustomView.h */,
+				B22B8B9120B919D300C126D8 /* YKCustomView.m */,
+				B22B8B9820B93F2000C126D8 /* YKImageView.h */,
+				B22B8B9920B93F2000C126D8 /* YKImageView.m */,
+				B22B8B9320B9374300C126D8 /* YKBezierView.h */,
+				B22B8B9420B9374300C126D8 /* YKBezierView.m */,
 				B22B8B7D20B919B300C126D8 /* ViewController.h */,
 				B22B8B7E20B919B300C126D8 /* ViewController.m */,
-				B22B8B8020B919B300C126D8 /* Main.storyboard */,
 				B22B8B8320B919B400C126D8 /* Assets.xcassets */,
 				B22B8B8520B919B400C126D8 /* LaunchScreen.storyboard */,
+				B22B8B7A20B919B300C126D8 /* AppDelegate.h */,
+				B22B8B7B20B919B300C126D8 /* AppDelegate.m */,
+				B22B8B8020B919B300C126D8 /* Main.storyboard */,
 				B22B8B8820B919B400C126D8 /* Info.plist */,
 				B22B8B8920B919B400C126D8 /* main.m */,
 			);
@@ -97,6 +115,7 @@
 		B22B8B6F20B919B300C126D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YK;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = yankang;
 				TargetAttributes = {
@@ -128,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B22B8B9720B93EFE00C126D8 /* imageIcon.png in Resources */,
 				B22B8B8720B919B400C126D8 /* LaunchScreen.storyboard in Resources */,
 				B22B8B8420B919B400C126D8 /* Assets.xcassets in Resources */,
 				B22B8B8220B919B300C126D8 /* Main.storyboard in Resources */,
@@ -143,7 +163,10 @@
 			files = (
 				B22B8B7F20B919B300C126D8 /* ViewController.m in Sources */,
 				B22B8B8A20B919B400C126D8 /* main.m in Sources */,
+				B22B8B9A20B93F2000C126D8 /* YKImageView.m in Sources */,
 				B22B8B7C20B919B300C126D8 /* AppDelegate.m in Sources */,
+				B22B8B9520B9374300C126D8 /* YKBezierView.m in Sources */,
+				B22B8B9220B919D300C126D8 /* YKCustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
